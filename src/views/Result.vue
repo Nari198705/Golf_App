@@ -153,5 +153,7 @@
         }]
       }
     }
+    //<el-table_row>
+      //per score pat数 ※点数が1以下のショットある場合は赤セルで
   }
 </script>
