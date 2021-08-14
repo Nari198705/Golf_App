@@ -2,8 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png" />
     |
-    <router-view />
     <router-link to="/Round_Info">Round_Info</router-link> |
+    <router-view />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>

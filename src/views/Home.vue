@@ -4,27 +4,37 @@
       ユーザー名：
       <el-input
         placeholder="ユーザー名"
-        v-model="input"
+        v-model="user_name"
       ></el-input>
       パスワード：
       <el-input
         placeholder="パスワード"
-        v-model="input"
+        v-model="passsword"
       ></el-input>
     </p>
     <el-button>ログイン</el-button>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+//import HelloWorld from '@/components/HelloWorld.vue'
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      user_name: "",
+      passsword: "",
+    };
+  },
+  /*async created(){
+    if (user_name == )
+
+  <div v-if = 'user_name === ""'>
+  or
+  <div v-if = 'user_name !== ""'>
+  or
+  <div v-if = "user_name">
   }
-}
+  */
+};
 </script>
