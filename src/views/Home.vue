@@ -1,7 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>
+      ユーザー名：
+      <el-input
+        placeholder="ユーザー名"
+        v-model="input"
+      ></el-input>
+      パスワード：
+      <el-input
+        placeholder="パスワード"
+        v-model="input"
+      ></el-input>
+    </p>
+    <el-button>ログイン</el-button>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
