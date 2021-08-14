@@ -3,6 +3,7 @@
     <img src="./assets/logo.png" />
     |
     <router-link to="/Round_Info">Round_Info</router-link> |
+    <router-link to="/Result">Result</router-link> |
     <router-view />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>

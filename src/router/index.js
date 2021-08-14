@@ -14,6 +14,11 @@ const routes = [
     path: '/Round_Info',
     name: 'Round_Info',
     component: () => import('../views/Round_Info.vue')
+  },
+  {
+    path: '/Result',
+    name: 'Result',
+    component: () => import('../views/Result.vue')
   }
 ]
 
